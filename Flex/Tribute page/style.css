@@ -96,5 +96,5 @@ figure {
 
 @font-face {
   font-family: 'LTPerfume';
-  src: url('../assets/Fonts/LTPerfume.ttf');
+  src: url('../../assets/Fonts/LTPerfume.ttf');
 }
