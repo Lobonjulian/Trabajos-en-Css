@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+:root {
+  --white: #ffffff;
+  --Light: #f2f5f9;
+  --black: #4a5567;
+  --dark: #111729;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--Light);
+  font-family: Lato, sans-serif;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.card {
+  margin: 0 auto;
+  max-width: 418px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 1rem;
+  background-color: var(--white);
+}
+
+.card__hero {
+  max-height: 418px;
+  img {
+    border-radius: 1rem 1rem 0 0;
+    width: 418px;
+  }
+  .svg {
+    position: relative;
+    bottom: 4.4rem;
+  }
+}
+
+.card__content {
+  padding: 0 2rem 1rem;
+  border-bottom: 2px solid var(--Light);
+  font-family: Poppins, sans-serif;
+}
+
+.card__author {
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  img {
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 15px var(--dark);
+  }
+  .card__author__content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    h4 {
+      color: var(--dark);
+      font-weight: bold;
+    }
+    p {
+      color: var(--black);
+    }
+  }
+}
