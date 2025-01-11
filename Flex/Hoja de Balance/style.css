@@ -123,7 +123,11 @@ td.current {
 }
 
 tr.data {
-  background-image: linear-gradient(to bottom, #dfdfe2 1.845rem, white 1.845rem);
+  background-image: linear-gradient(
+    to bottom,
+    #dfdfe2 1.845rem,
+    white 1.845rem
+  );
 }
 
 tr.data th {
@@ -147,5 +151,5 @@ tr.data td {
 }
 
 tr.data td:last-of-type {
-  padding-right: .5rem;
+  padding-right: 0.5rem;
 }

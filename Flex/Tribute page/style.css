@@ -1,6 +1,6 @@
 :root {
-  --black: ##0E0E0E;
-  --white: #DFDFDF;
+  --black: ##0e0e0e;
+  --white: #dfdfdf;
 }
 
 * {
@@ -32,7 +32,7 @@ header {
   }
 
   .header-p {
-    font-size: .9rem;
+    font-size: 0.9rem;
     font-style: italic;
   }
 }
@@ -63,7 +63,7 @@ figure {
   display: flex;
   flex-direction: column;
   align-items: center;
-  .title{
+  .title {
     font-size: 2.5rem;
     font-weight: bold;
     font-family: "LTPerfume", sans-serif;
@@ -72,10 +72,12 @@ figure {
   ul {
     max-width: 800px;
     margin-top: 2rem;
+    padding: 1rem 2rem;
     display: flex;
     flex-direction: column;
-    li{
-      margin-top: 1rem;
+    li {
+      padding: 0.5rem;
+      text-wrap: pretty;
     }
   }
 }
@@ -85,7 +87,7 @@ figure {
   blockquote {
     margin-bottom: 1.5rem;
     font-style: italic;
-    span{
+    span {
       font-weight: bold;
     }
   }
@@ -95,6 +97,6 @@ figure {
 }
 
 @font-face {
-  font-family: 'LTPerfume';
-  src: url('../../assets/Fonts/LTPerfume.ttf');
+  font-family: "LTPerfume";
+  src: url("../../assets/Fonts/LTPerfume.ttf");
 }
