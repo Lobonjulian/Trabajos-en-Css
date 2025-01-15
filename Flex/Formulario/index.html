@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" >
+    <link rel="shortcut icon" href="./assets/form.svg" type="image/x-svg">
+    <title>Formulario Odin</title>
+  </head>
+
+  <body>
+    <main class="container">
+      <aside class="sec__barraLateral">
+        <div class="sec__barTitle">
+          <img src="./assets/form.svg" />
+          <h1>Formulario</h1>
+        </div>
+      </aside>
+
+      <section class="sec__form">
+        <div class="sec__form__info">
+          <p>
+            Los programadores están en una carrera con el Universo para crear
+            programas más grandes y mejores a prueba de idiotas, mientras que el
+            Universo intenta crear idiotas más grandes y mejores. Hasta ahora el
+            Universo está ganando".
+          </p>
+          <p class="author">
+            <strong>- Rich Cook</strong>
+          </p>
+        </div>
+
+        <form class="form" action="mailto:julitolos6@gmail.com" method="post">
+          <h3>Crear Cuenta</h3>
+
+          <div class="formulario">
+            <div class="form__div">
+              <div class="form__div__div">
+                <label for="name">Nombre </label>
+                <input type="text" name="name" id="name" required />
+              </div>
+
+              <div class="form__div__div">
+                <label for="apellido">Apellido</label>
+                <input type="text" name="apellido" id="apellido" />
+
+              </div>
+            </div>
+
+            <div class="form__div">
+              <div class="form__div__div">
+
+                <label for="email">Email </label>
+                <input type="email" name="email" id="email" required />
+              </div>
+              <div class="form__div__div">
+              <label for="phone">Numero de teléfono</label>
+              <input type="tel" name="phone" id="phone" />
+              </div>
+            </div>
+            <div class="form__div">
+              <div class="form__div__div">
+
+                <label for="password">Contraseña</label>
+                <input type="password" name="password" id="password" required />
+              </div>
+              <div class="form__div__div">
+              <label for="cpassword">Confirmar Contraseña</label>
+              <input type="password" name="cpassword" id="cpassword" required />
+              </div>
+            </div>
+          </div>
+        </form>
+
+        <div class="sec__boton">
+          <button class="btn">Crear Cuenta</button>
+          <p>
+            ¿Ya tienes una cuenta?<a class="text__a" href="#" target="_blank">
+              Log in</a
+            >
+          </p>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

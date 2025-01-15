@@ -1,0 +1,135 @@
+:root {
+  --primary-100: #4caf50;
+  --primary-200: #2a9235;
+  --primary-300: #ec5c22;
+  --accent-100: #2196f3;
+  --accent-200: #003f8f;
+  --text-100: #333333;
+  --text-200: #5c5c5c;
+  --bg-100: #ffffff;
+  --bg-200: #f5f5f5;
+  --bg-300: #cccccc;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--bg-300);
+}
+
+.container {
+  display: flex;
+}
+
+.sec__barraLateral {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  background-image: url(assets/music.avif);
+  background-size: cover;
+  background-position: center;
+}
+
+.sec__barTitle {
+  height: fit-content;
+  padding: 0.5rem 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  background-color: var(--text-200);
+  color: var(--bg-100);
+  opacity: 0.8;
+}
+
+.sec__form {
+  display: flex;
+  flex-direction: column;
+  padding: 5rem 0;
+  gap: 2rem;
+}
+
+.sec__form__info {
+  padding: 0 1rem;
+  gap: 1rem;
+}
+
+p {
+  color: var(--text-100);
+  font-weight: 900;
+  text-wrap: balance;
+}
+
+.author {
+  text-align: right;
+  padding-right: 2.5rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  gap: 1rem;
+  background-color: var(--bg-100);
+  border-bottom: 3px solid var(--primary-200);
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.form__div {
+  display: flex;
+  gap: 3rem;
+}
+
+.form__div__div{
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  padding: 0.1rem 0.2rem;
+  border: var(--bg-300) 1px solid;
+}
+
+input:focus {
+  outline: none;
+  border: var(--accent-100) 2px solid;
+  box-shadow: 0 0 5px var(--text-200);
+}
+
+input[type="password"]:invalid {
+  border: 2px solid var(--primary-300);
+}
+
+input[type="password"]:valid {
+  border: 2px solid var(--primary-100);
+}
+
+.sec__boton {
+  padding: 0 1rem;
+}
+
+.btn {
+  padding: 0.75rem 2rem;
+  border: none;
+  color: var(--bg-100);
+  font-weight: bold;
+  border-radius: 0.5rem;
+  background-color: var(--primary-200);
+  box-shadow: 0 0 0.1rem var(--text-200);
+}
+
+.text__a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 800;
+  color: var(--primary-100);
+}
