@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header {
+  padding: 2rem;
+  background-color: #fff;
+  text-align: center;
+  text-wrap: pretty;
+  line-height: 3rem;
+}
+
+main {
+  padding: 2rem 8rem;
+  background-color: #D2D5DA;
+}
+
+section {
+  padding: 1rem;
+
+  div {
+    line-height: 2.5rem;
+  }
+
+  ul,
+  ol {
+    margin: 1rem;
+  }
+}
