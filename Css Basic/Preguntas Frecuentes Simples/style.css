@@ -3,13 +3,20 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
-  height: 100vh;
+  max-width: 1280px;
+  margin: 0 auto;
   font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 1rem;
+}
+
+h2 h1 {
+  font-weight: 600;
 }
 
 header {
-  padding: 2rem;
+  padding: 4rem;
   background-color: #fff;
   text-align: center;
   text-wrap: pretty;
@@ -22,10 +29,15 @@ main {
 }
 
 section {
-  padding: 1rem;
+  padding: 2rem 8rem;
+  line-height: 1.5rem;
 
   div {
-    line-height: 2.5rem;
+    line-height: 3rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
   }
 
   ul,
